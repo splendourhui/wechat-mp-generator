@@ -1,6 +1,6 @@
 {
-  "name": "cvtouch-wechat-mp",
-  "version": "0.0.1",
+  "name": "wechat-mp-generator",
+  "version": "0.1.0",
   "dependencies": {
     "co": "4.6.0",
     "co-wechat": "^1.0.0",
