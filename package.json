@@ -1,0 +1,40 @@
+{
+  "name": "cvtouch-wechat-mp",
+  "version": "0.0.1",
+  "dependencies": {
+    "co": "4.6.0",
+    "co-wechat": "^1.0.0",
+    "co-wechat-api": "^2.7.0",
+    "co-wechat-oauth": "^1.0.1",
+    "config": "^1.20.1",
+    "crypto": "*",
+    "jade": "1.11.0",
+    "koa": "1.1.2",
+    "koa-better-body": "1.0.17",
+    "koa-logs-full": "*",
+    "koa-middlewares": "4.1.0",
+    "koa-validate": "0.2.11",
+    "lodash": "3.10.1",
+    "moment": "2.10.6",
+    "mysql": "^2.10.0",
+    "raw-body": "^2.1.7",
+    "sequelize": "3.15.1",
+    "soap": "*",
+    "superagent": "1.4.0"
+  },
+  "scripts": {
+    "start": "supervisor --harmony --ignore public app.js",
+    "test": "mocha --harmony",
+    "test-cov": "node --harmony node_modules/istanbul-harmony/lib/cli.js cover ./node_modules/mocha/bin/_mocha"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "cheerio": "0.20.0",
+    "colors": "1.1.2",
+    "cross-env": "1.0.7",
+    "istanbul-harmony": "0.3.1",
+    "mocha": "2.4.5",
+    "npm-run-all": "1.7.0",
+    "supertest": "1.1.0"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "defaultPort": 3000,
+  "wechatConfigs": {
+    "token": "928797_l"
+  },
+  "db": {
+    "username": "username",
+    "password": "password",
+    "dbName": "dbName",
+    "dbUrl": "dbUrl",
+    "dbPort": 3306,
+    "dialect": "mysql",
+    "pool": {
+      "maxConnections": 5,
+      "minConnection": 1
+    }
+  }
+}
